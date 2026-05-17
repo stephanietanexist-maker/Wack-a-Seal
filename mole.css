@@ -1,0 +1,68 @@
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    /*background*/
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
+    background-image: url("./snowy.jpg");
+    background-size: cover;
+   
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px rgb(59, 62, 64);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px rgb(59, 62, 64);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#board {
+    width:540px;
+    height:540px;
+    background-color: rgb(235, 238, 238);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid rgb(182, 216, 234);
+    border-radius: 25px;
+}
+
+#board div {
+    width: 180px;
+    height:180px;
+    background-image: url("./hole.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+   
+    
+   
+}
+
+#board div img {
+    width: 80px;
+    height: 90px;
+
+    /*Making user unable to select images*/
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
