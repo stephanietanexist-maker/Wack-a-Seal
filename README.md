@@ -9,4 +9,4 @@ Additional code that's not in the video was from AI chatbot since I'm still lear
 Images were from google
 
 Game preview
-![image alt] (https://github.com/stephanietanexist-maker/Wack-a-Seal/blob/8f1d893772505b60af9b3becb54497c3a7883402/Screenshot%202026-05-16%20225547.png)
+![image alt](https://github.com/stephanietanexist-maker/Wack-a-Seal/blob/8f1d893772505b60af9b3becb54497c3a7883402/Screenshot%202026-05-16%20225547.png)
